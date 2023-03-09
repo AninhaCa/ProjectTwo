@@ -16,7 +16,7 @@ class Woman: NSObject {
     
     init(name: String, descriptionWoman: String, createdWoman: String, info: String, image: String) {
         self.name = name
-        self.descriptionWoman = name
+        self.descriptionWoman = descriptionWoman
         self.createdWoman = createdWoman
         self.info = info
         self.image = image

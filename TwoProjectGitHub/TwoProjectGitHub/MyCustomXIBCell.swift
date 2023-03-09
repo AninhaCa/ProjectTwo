@@ -25,6 +25,6 @@ class MyCustomXIBCell: UITableViewCell {
     
     func setup(womanXIB: Woman) {
         labelXIB.text = womanXIB.name
-        imageView?.image = UIImage(named: womanXIB.image)
+        imageXIB.image = UIImage(named: womanXIB.image)
     }
 }
