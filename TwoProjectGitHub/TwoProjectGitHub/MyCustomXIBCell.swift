@@ -23,7 +23,7 @@ class MyCustomXIBCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    func setup() {
+    func setup(womanXIB: Woman) {
         
     }
 }
