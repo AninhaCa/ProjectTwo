@@ -24,6 +24,7 @@ class MyCustomCell: UITableViewCell {
     }
 
     func setup(womanCell: Woman) {
-        
+        labelCell.text = womanCell.name
+        imageCell.image = UIImage(named: womanCell.image)
     }
 }
