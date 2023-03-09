@@ -18,7 +18,9 @@ class FourViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        labelOne.text = womanFour.name
+        labelTwo.text = womanFour.info
+        image.image = UIImage(named: womanFour.image)
     }
     
     @IBAction func back(_ sender: Any) {

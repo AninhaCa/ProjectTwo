@@ -11,7 +11,7 @@ class ViewController: UIViewController {
 
     @IBOutlet var myTableView: UITableView!
     
-    var arreyWoman: [Woman] = [Woman(name: "", descriptionWoman: "", createdWoman: "", info: "", image: "")]
+    var arreyWoman: [Woman] = [Woman(name: "1", descriptionWoman: "1", createdWoman: "1", info: "1", image: "")]
     
     override func viewDidLoad() {
         super.viewDidLoad()
