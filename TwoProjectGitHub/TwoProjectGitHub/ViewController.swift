@@ -16,9 +16,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         myTableView.dataSource = self
+        myTableView.delegate = self
         let XIB = UINib(nibName: "MyCustomXIBCell", bundle: nil)
         myTableView.register(XIB, forCellReuseIdentifier: "cellXIB")
-        
     }
 }
 

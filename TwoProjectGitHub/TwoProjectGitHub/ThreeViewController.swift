@@ -22,8 +22,14 @@ class ThreeViewController: UIViewController {
     }
     
     @IBAction func back(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
     }
     
     @IBAction func follow(_ sender: Any) {
+        if let four = self.storyboard?.instantiateViewController(identifier: "four") as? FourViewController {
+            four.womanFour = self.womanThree
+            buttonThree.backgroundColor = .black
+            self.navigationController?.pushViewController(four, animated: true)
+        }
     }
 }

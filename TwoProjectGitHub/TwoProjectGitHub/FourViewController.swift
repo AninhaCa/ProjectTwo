@@ -22,8 +22,13 @@ class FourViewController: UIViewController {
     }
     
     @IBAction func back(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
     }
     
     @IBAction func follow(_ sender: Any) {
+        if let modal = self.storyboard?.instantiateViewController(identifier: "modal") {
+            buttonFour.backgroundColor = .black
+            self.present(modal, animated: true)
+        }
     }
 }
