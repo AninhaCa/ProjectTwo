@@ -9,11 +9,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var myTableView: UITableView!
+    
+    var arreyWoman: [Woman] = [Woman(name: "", descriptionWoman: "", createdWoman: "", info: "", image: "")]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
-
-
 }
 
