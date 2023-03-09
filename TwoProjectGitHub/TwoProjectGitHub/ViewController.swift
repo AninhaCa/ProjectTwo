@@ -39,6 +39,7 @@ extension ViewController: UITableViewDataSource {
                 cell.setup(womanCell: arreyWoman[indexPath.row])
                 return cell
             }
+            
         } else {
             if let cellXIB = tableView.dequeueReusableCell(withIdentifier: "cellXIB", for: indexPath) as? MyCustomXIBCell {
                 cellXIB.setup(womanXIB: arreyWoman[indexPath.row])
