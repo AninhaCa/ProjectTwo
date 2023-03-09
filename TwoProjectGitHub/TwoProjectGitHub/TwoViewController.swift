@@ -14,9 +14,10 @@ class TwoViewController: UIViewController {
     @IBOutlet var followTwo: UIButton!
     @IBOutlet var imageTwo: UIImageView!
     
+    var womanTwo: Woman = Woman(name: "", descriptionWoman: "", createdWoman: "", info: "", image: "")
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
     }
     
     @IBAction func back(_ sender: Any) {

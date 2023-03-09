@@ -13,6 +13,9 @@ class FourViewController: UIViewController {
     @IBOutlet var labelOne: UILabel!
     @IBOutlet var labelTwo: UILabel!
     @IBOutlet var image: UIImageView!
+    
+    var womanFour: Woman = Woman(name: "", descriptionWoman: "", createdWoman: "", info: "", image: "")
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

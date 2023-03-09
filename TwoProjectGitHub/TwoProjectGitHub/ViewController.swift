@@ -39,7 +39,16 @@ extension ViewController: UITableViewDataSource {
                 return cellXIB
             }
         }
+        
         return UITableViewCell()
     }
 }
 
+extension ViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let two = self.storyboard?.instantiateViewController(identifier: "two") as? TwoViewController {
+            two.womanTwo = arreyWoman[indexPath.row]
+            self.navigationController?.pushViewController(two, animated: true)
+        }
+    }
+}
