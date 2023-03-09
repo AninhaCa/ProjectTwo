@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		776516CF29B96403009D802F /* ThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776516CE29B96403009D802F /* ThreeViewController.swift */; };
 		776516D129B964D0009D802F /* FourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776516D029B964D0009D802F /* FourViewController.swift */; };
+		776516D329B965A0009D802F /* MyCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776516D229B965A0009D802F /* MyCustomCell.swift */; };
 		77C3FA5929B95CF400964766 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C3FA5829B95CF400964766 /* AppDelegate.swift */; };
 		77C3FA5B29B95CF400964766 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C3FA5A29B95CF400964766 /* SceneDelegate.swift */; };
 		77C3FA5D29B95CF400964766 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C3FA5C29B95CF400964766 /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		776516CE29B96403009D802F /* ThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeViewController.swift; sourceTree = "<group>"; };
 		776516D029B964D0009D802F /* FourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourViewController.swift; sourceTree = "<group>"; };
+		776516D229B965A0009D802F /* MyCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCell.swift; sourceTree = "<group>"; };
 		77C3FA5529B95CF400964766 /* TwoProjectGitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoProjectGitHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77C3FA5829B95CF400964766 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77C3FA5A29B95CF400964766 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				77C3FA6E29B95CF700964766 /* TwoViewController.swift */,
 				776516CE29B96403009D802F /* ThreeViewController.swift */,
 				776516D029B964D0009D802F /* FourViewController.swift */,
+				776516D229B965A0009D802F /* MyCustomCell.swift */,
 				77C3FA5E29B95CF400964766 /* Main.storyboard */,
 				77C3FA6129B95CF700964766 /* Assets.xcassets */,
 				77C3FA6329B95CF700964766 /* LaunchScreen.storyboard */,
@@ -155,6 +158,7 @@
 				77C3FA5D29B95CF400964766 /* ViewController.swift in Sources */,
 				776516CF29B96403009D802F /* ThreeViewController.swift in Sources */,
 				77C3FA5929B95CF400964766 /* AppDelegate.swift in Sources */,
+				776516D329B965A0009D802F /* MyCustomCell.swift in Sources */,
 				77C3FA5B29B95CF400964766 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
